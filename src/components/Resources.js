@@ -72,7 +72,7 @@ function Resources() {
   return (
     <div className="flex justify-center items-center flex-col px-4">
       {/* Center vertically and horizontally */}
-      <form className="tablet:w-1/4">
+      <form className="w-2/3 tablet:w-1/4">
         <label
           for="default-search"
           class="mb-2 text-sm font-medium text-neutral-900 sr-only dark:text-neutral-light"
@@ -122,7 +122,7 @@ function Resources() {
       </div>
 
       {/* Display Resources */}
-      <div className="grid tablet:grid-cols-2 laptop:grid-cols-3 desktop:grid-cols-4 gap-5">
+      <div className="grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 desktop:grid-cols-4 gap-3 tablet:gap-5">
         {resourcesToDisplay.map((resource) => (
           <div
             key={resource}

@@ -12,7 +12,7 @@ function Header() {
   };
 
   return (
-    <header className="py-4 px-4 tablet:py-16 tablet:px-16 flex items-center gap-4 justify-between">
+    <header className="py-4 px-4 tablet:py-16 tablet:px-16 flex items-center gap-3 justify-between">
       {/* Logo */}
       <div className=" cursor-pointer font-extrabold tracking-tight leading-none text-3xl  md:text-5xl lg:text-6xl ">
         <span className="text-accent-500">freeresources</span>
