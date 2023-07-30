@@ -66,7 +66,7 @@ function Resources() {
   const resourcesToDisplay = filteredResources().slice(0, displayCount);
   useEffect(() => {
     setDisplayCount(8);
-    filteredResources()
+    filteredResources();
   }, [selectedCategory, searchQuery]);
 
   return (
@@ -125,23 +125,19 @@ function Resources() {
       <div className="grid tablet:grid-cols-2 laptop:grid-cols-3 desktop:grid-cols-4 gap-5">
         {resourcesToDisplay.map((resource) => (
           <div
-            key={resource.id}
+            key={resource}
             class="max-w-sm p-6 bg-gray-300 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
           >
-            <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                {resource.title}
-              </h5>
-            </a>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              {resource.title}
+            </h5>
+
             <p className="flex mb-3 font-normal text-gray-700 dark:text-gray-400 items-center">
               <AiFillTags className="mr-1 text-accent-600" />{" "}
               {resource.tags.join(", ")}
             </p>
-            <Link href={""}>
-              <p
-                href={resource.link}
-                class="flex gap-1  items-center px-3 py-2 text-sm font-medium text-center dark:text-neutral-light text-neutral-900 "
-              >
+            <Link href={resource.link}>
+              <p class="flex gap-1  items-center px-3 py-2 text-sm font-medium text-center dark:text-neutral-light text-neutral-900 ">
                 Learn more
                 <BsArrowRight />
               </p>

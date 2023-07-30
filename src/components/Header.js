@@ -34,7 +34,7 @@ function Header() {
 
         {/* GitHub Icon */}
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/masiedu4/Free-Learning-Resources"
           target="_blank"
           rel="noopener noreferrer"
           className=""

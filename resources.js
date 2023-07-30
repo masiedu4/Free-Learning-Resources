@@ -1,13 +1,48 @@
 export const resources = {
   categories: [
     {
-      id: "devs",
-      name: "Developers",
+      id: "webdev",
+      name: "Web development",
       resources: [
         {
-          id: 1,
-          title: "Resource 1 for Developers",
-          tags: ["JavaScript", "React", "Next.js", "Figma"],
+          title: "Learn HTML for Free: 9 hours",
+          tags: ["Frontend", "HTML", "UI/UX"],
+          link: "https://www.codecademy.com/learn/learn-html",
+        },
+        {
+          title: "Learn CSS for Free: Full Documentation",
+          tags: ["Frontend", "CSS", "UI/UX"],
+          link: "https://web.dev/learn/css/",
+        },
+        {
+          title: "Free 50 JavaScript Courses",
+          tags: ["Frontend", "JavaScript", "Web development"],
+          link: "https://www.javascript.com/",
+        },
+        {
+          title: "React.js tutorial: 11 hour tutorial",
+          tags: ["JavaScript", "React", "Frontend"],
+          link: "https://scrimba.com/learn/learnreact",
+        },
+        {
+          title: "TypeScript: Ultimate Beginner Course",
+          tags: ["Frontend", "TypeScript", "JavaScript"],
+          link: "https://www.freecodecamp.org/news/learn-typescript-beginners-guide/",
+        },
+        {
+          title: "Full Svelte Course for Beginners",
+          tags: ["JavaScript", "Svelte", "Frontend"],
+          link: "https://www.youtube.com/watch?v=UGBJHYpHPvA",
+        },
+        {
+          title: "Node JS API Development for Beginners",
+          tags: ["Node.js", "JavaScript", "Backend"],
+          link: "https://www.udemy.com/course/node-js-api-tutorial/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-ixYOFO7A_.iKOziW5biAKw&utm_medium=udemyads&utm_source=aff-campaign",
+        },
+        {
+          title: "How to become a full stack developer",
+          tags: ["JavaScript", "Web development", "Full Stack"],
+          link: "https://bootcamp.cvn.columbia.edu/blog/how-to-become-a-full-stack-developer/",
         },
 
         // Add more resources for Developers
@@ -19,36 +54,21 @@ export const resources = {
       name: "Designers",
       resources: [
         {
-          id: 2,
-          title: "Resource 1 for Designers",
-          tags: ["UI Design", "Figma", "Sketch"],
+          title: "",
+          tags: [""],
+          link: "",
         },
         // Add more resources for Designers
       ],
     },
     {
       id: "writers",
-      name: "Technical Writers",
+      name: "Technical Writing",
       resources: [
         {
-          id: 3,
-          title: "1 for Techn",
-          tags: ["HTML", "Technical Writing", "Markdown", "Figma"],
-        },
-        {
-          id: 4,
-          title: " 2 for Technical ",
-          tags: ["HTML", "Technical Writing", "Markdown", "Figma"],
-        },
-        {
-          id: 5,
-          title: " 3 for Technical Writers",
-          tags: ["HTML", "Technical Writing", "Markdown", "Figma"],
-        },
-        {
-          id: 6,
-          title: " 4 for Technical Writers",
-          tags: ["HTML", "Technical Writing", "Markdown", "Figma"],
+          title: "",
+          tags: [""],
+          link: "",
         },
 
         // Add more resources for Technical Writers
