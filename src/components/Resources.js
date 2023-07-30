@@ -137,7 +137,7 @@ function Resources() {
               {resource.tags.join(", ")}
             </p>
             <Link href={resource.link}>
-              <p class="flex gap-1  items-center px-3 py-2 text-sm font-medium text-center dark:text-neutral-light text-neutral-900 ">
+              <p class="flex gap-1 hover:text-brand-500 items-center px-3 py-2 text-sm font-medium text-center dark:text-neutral-light text-neutral-900 ">
                 Learn more
                 <BsArrowRight />
               </p>

@@ -29,7 +29,7 @@ function Hero() {
             ></path>
           </svg>
         </a>
-        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 laptop:text-5xl desktop:text-6xl dark:text-neutral-light">
+        <h1 class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-gray-900 laptop:text-5xl desktop:text-6xl dark:text-neutral-light">
           Free Learning Resources for Everyone in Tech
         </h1>
         <p class="mb-8 text-lg font-normal text-gray-800 desktop:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
