@@ -94,7 +94,7 @@ function Resources() {
         </div>
       </form>
       {/* Tabs */}
-      <div className="flex mb-8 px-4">
+      <div className="flex flex-wrap gap-2 mb-8 px-4">
         <button
           key="all"
           onClick={() => handleTabClick("all")}
