@@ -14,7 +14,7 @@ function Header() {
   return (
     <header className="py-4 px-4 tablet:py-16 tablet:px-16 flex items-center gap-3 justify-between">
       {/* Logo */}
-      <div className=" cursor-pointer font-extrabold tracking-tight leading-none text-3xl  md:text-5xl lg:text-6xl ">
+      <div className=" cursor-pointer font-extrabold tracking-tight leading-none text-2xl  md:text-5xl lg:text-6xl ">
         <span className="text-accent-500">freeresources</span>
         <span className="text-gray-900 dark:text-neutral-light">.tech</span>
       </div>
@@ -26,9 +26,9 @@ function Header() {
           className="p-2 rounded-full bg-neutral-800 dark:bg-neutral-light text-white hover:bg-gray-600"
         >
           {theme === "light" ? (
-            <BsMoonStarsFill className="text-yellow-600 text-xl" />
+            <BsMoonStarsFill className="text-yellow-600 text-md md:text-xl" />
           ) : (
-            <FaSun className="text-yellow-600 text-xl" />
+            <FaSun className="text-yellow-600 text-md md:text-xl" />
           )}
         </button>
 
@@ -39,7 +39,7 @@ function Header() {
           rel="noopener noreferrer"
           className=""
         >
-          <FaGithub size={33} />
+          <FaGithub size={30} />
         </a>
       </div>
     </header>
