@@ -40,7 +40,6 @@ To start using the website and benefiting from the vast collection of learning r
   name: "Developers",
   resources: [
     {
-      id: 1,
       title: "Resource 1 for Developers",
       tags: ["JavaScript", "React", "Next.js", "Figma"],
       link: "www.fb.com"

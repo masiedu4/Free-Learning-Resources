@@ -136,7 +136,7 @@ function Resources() {
               <AiFillTags className="mr-1 text-accent-600" />{" "}
               {resource.tags.join(", ")}
             </p>
-            <Link href={resource.link}>
+            <Link href={resource.link} target="_blank">
               <p class="flex gap-1 hover:text-brand-500 items-center px-3 py-2 text-sm font-medium text-center dark:text-neutral-light text-neutral-900 ">
                 Learn more
                 <BsArrowRight />

@@ -18,7 +18,11 @@ const Footer = () => {
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <span class="flex justify-center gap-2 text-center text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2023{" "}
-          <a href="https://twitter.com/MichaelAsiedu_" class="hover:underline">
+          <a
+            href="https://twitter.com/MichaelAsiedu_"
+            target="_blank"
+            class="hover:underline"
+          >
             Maintained by Michael Asiedu
           </a>
         </span>

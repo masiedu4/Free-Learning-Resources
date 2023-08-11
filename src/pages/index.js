@@ -11,7 +11,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
-      <main className="bg-neutral-100  dark:bg-brand-900 h-full min-w-full">
+      <main className="bg-neutral-100  dark:bg-brand-900 h-full w-full">
         {" "}
         <Header />
         <Hero />
