@@ -1,9 +1,25 @@
-import "@/styles/globals.css";
+import React from "react";
+import Script from "next/script";
 import { ThemeProvider } from "next-themes";
-export default function App({ Component, pageProps }) {
+import "@/styles/globals.css"; // Import global styles
+
+function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider attribute="class">
-      <Component {...pageProps} />
+      <React.Fragment>
+        <Component {...pageProps} />
+        <Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
+        <noscript>
+          {/* eslint-disable @next/next/no-img-element */}
+          <img
+            src="https://queue.simpleanalyticscdn.com/noscript.gif"
+            alt=""
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </noscript>
+      </React.Fragment>
     </ThemeProvider>
   );
 }
+
+export default MyApp;
