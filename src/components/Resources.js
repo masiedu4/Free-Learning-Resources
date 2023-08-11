@@ -126,7 +126,7 @@ function Resources() {
         {resourcesToDisplay.map((resource) => (
           <div
             key={resource}
-            class="max-w-sm p-6 bg-gray-300 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+            class="max-w-sm p-6 bg-gray-200 border border-gray-800 rounded-lg shadow dark:shadow hover:bg-white dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-900"
           >
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               {resource.title}
@@ -137,7 +137,7 @@ function Resources() {
               {resource.tags.join(", ")}
             </p>
             <Link href={resource.link} target="_blank">
-              <p class="flex gap-1 hover:text-brand-500 items-center px-3 py-2 text-sm font-medium text-center dark:text-neutral-light text-neutral-900 ">
+              <p class="flex gap-1 hover:text-brand-500 dark:hover:text-accent-600 items-center px-3 py-2 text-sm font-medium text-center dark:text-neutral-light text-neutral-900 ">
                 Learn more
                 <BsArrowRight />
               </p>
@@ -147,7 +147,7 @@ function Resources() {
       </div>
       {resourcesToDisplay.length < filteredResources().length && (
         <button
-          className="my-4 py-2 px-4 bg-gray-800 text-white rounded-md shadow-md transition duration-300 "
+          className="my-4 py-2 px-4 bg-gray-800 text-white hover:bg-gray-900 rounded-md shadow-md transition duration-300 "
           onClick={handleLoadMore}
         >
           Load More
