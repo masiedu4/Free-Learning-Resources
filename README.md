@@ -29,15 +29,15 @@ To start using the website and benefiting from the vast collection of learning r
 
 ### Contributing Guide
 
-#### Creating a Category and Resources
+#### Creating a Category
 
 - Open `resources.js` in the root directory
-- To create a new category "Developers" and add resources under it, use the following code snippet as a template:
+- To create a new category "[Category Name]" and add resources under it, use the following code snippet as a template:
 
 ```
 {
   id: "devs",
-  name: "Developers",
+  name: "Category Name",
   resources: [
     {
       title: "Resource 1 for Developers",
@@ -50,7 +50,24 @@ To start using the website and benefiting from the vast collection of learning r
 
 ```
 
+#### Adding a Resource
+
+- Open `resources.js` in the root directory
+- To add a new resources, use the following code snippet as a template and add it to the `resources` array:
+
+```
+
+    {
+      title: "Resource 1 for Developers",
+      tags: ["JavaScript", "React", "Next.js", "Figma"],
+      link: "www.fb.com"
+    },
+
+
+```
+
 - **Please note that for each resource, you are allowed to submit a maximum of three(3) tags. Choose the most relevant and descriptive tags to help users find the resources they need easily**
 
 ## License
+
 This project is licensed under the [MIT License](https://opensource.org/license/mit/). Feel free to use, modify, and distribute the code following the terms of the license.
