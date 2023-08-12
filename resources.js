@@ -101,7 +101,7 @@ export const resources = {
         },
         {
           title: 'Omnichannel & CX',
-          tags: ['User Journeys', 'Customer Experience', 'Multichannel'],
+          tags: ['User Journeys', 'Customer Experience, 'Multichannel'],
           link: 'https://www.nngroup.com/articles/omnichannel-journeys-cx-study-guide/',
         },
         {
@@ -375,7 +375,90 @@ export const resources = {
         },
         // add more resources below
       ],
-    },
-    // Add more categories here
+      {
+      id: 'web3',
+      name: 'Web3 & Blockchain',
+      resources: [
+        {
+          title: 'Cryptodevhub'
+          tags:['Ethereum', 'Learning'],
+          link: 'https://cryptodevhub.io',   
+       },
+        {
+          title: 'Smart Contract Research Forum',
+          tags: ['smart contracts', 'Security', 'Learning'],
+          link: 'https://www.damnvulnerabledefi.xyz/',
+        },
+        {
+          title: 'Ludu Course',
+          tags: ['Ethereum', 'Learning'],
+          link: 'https://www.ludu.co/course/ethereum', 
+        },
+        {
+          title: 'Rust for Beginners',
+          tags: ['Rust', 'Learning'],
+          link: 'https://youtube.com/playlist?list=PLUBKxx7QjtVnXD7-u8iIVeIdQXmYRptp', 
+        },
+        {
+          title: 'Rust for Beginners',
+          tags: ['Rust', 'Learning'],
+          link: 'https://youtube.com/playlist?list=PLUBKxx7QjtVk9cVT9VaTtoDKivyWuLZZf', 
+        },
+         {
+          title: 'Blockchain Learning',
+          tags: ['Blockchain', 'Learning'],
+          link: ' https://www.blockchain.education/learn', 
+        },
+         {
+          title: 'Vyper Programming Tutorials',
+          tags: ['vyper', 'Learning'],
+          link: 'https://youtube.com/playlist?list=PLFPZ8ai7J-iQMTChqif-XVP8DYABA4rx1', 
+        },
+        {
+          title: 'Blockchain Developer Resource',
+          tags: ['Resources', 'Blockchain', 'Learning'],
+          link: 'https://www.dappuniversity.com/articles/the-complete-blockchain-developer-resource-list',
+        },
+        {
+          title: 'Quicknodes Guides',
+          tags: ['Resources', 'Blockchain', 'Guides', 'Learning'],
+          link: 'https://www.quicknode.com/guides/welcome',
+        },
+        {
+          title: 'Blockchain Learning',
+          tags: ['Blockchain', 'Learning'],
+          link: 'https://www.blockchain.education/learn', 
+        },
+        {
+          title: 'Bitdegree',
+          tags: ['Blockchain', 'Learning'],
+          link: 'https://www.bitdegree.org/crypto/learn/what-is-blockchain', 
+        },
+        {
+          title: '30DaysofWeb3',
+          tags: ['Blockchain', 'Web3', 'Learning'],
+          link: 'https://www.30daysofweb3.xyz/', 
+        },
+        {
+          title: 'chainshot',
+          tags: ['Blockchain', 'Web3', 'Learning'],
+          link: 'https://www.chainshot.com', 
+        },
+        {
+          title: 'EVM codes',
+          tags: ['Blockchain', 'Ethereum', 'Learning'],
+          link: 'https://www.evm.codes/playground', 
+        },
+        {
+          title: 'LearnEVM',
+          tags: ['smart contracts', 'Security', 'Learning'],
+          link: 'https://learnevm.com',
+        },
+        {
+          title: 'Inevitableeth',
+          tags: ['Ethereum', 'Blockchain', 'Learning'],
+          link: 'https://inevitableeth.com/en/home/ethereum/world-computer',
+        },
+    // Add more categories here 
   ],
 };
