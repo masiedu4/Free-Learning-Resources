@@ -41,7 +41,7 @@ To start using the website and benefiting from the vast collection of learning r
   resources: [
     {
       title: "Resource 1 for Developers",
-      tags: ["JavaScript", "React", "Next.js", "Figma"],
+      tags: ["JavaScript", "React", "Next.js"],
       link: "www.fb.com"
     },
     // Add more resources for Developers
@@ -59,7 +59,7 @@ To start using the website and benefiting from the vast collection of learning r
 
     {
       title: "Resource 1 for Developers",
-      tags: ["JavaScript", "React", "Next.js", "Figma"],
+      tags: ["JavaScript", "React", "Next.js"],
       link: "www.fb.com"
     },
 
