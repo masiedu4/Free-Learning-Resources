@@ -317,6 +317,16 @@ export const resources = {
           tags: ["AI", "Engineering", "Guide"],
           link: "https://github.com/dair-ai/Prompt-Engineering-Guide",
         },
+        {
+          title: "NLP Tutorials For Beginners In Python",
+          tags: ["AI", "Deep Learning", "Natural Language Processing"],
+          link: "https://youtube.com/playlist?list=PLeo1K3hjS3uuvuAXhYjV2lMEShq2UYSwX",
+        },
+        {
+          title: "Machine Learning Course With Python",
+          tags: ["Youtube", "Deep Learning", "Machine Learning"],
+          link: "https://youtube.com/playlist?list=PLfFghEzKVmjsNtIRwErklMAN8nJmebB0I",
+        },
       ],
     },
     {
