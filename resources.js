@@ -17,7 +17,7 @@ export const resources = {
         {
           title: "Free Website Templates - HTML, Shopify, Elementor",
           tags: ["Website Templates", "eCommerce", "Shopify"],
-          link: "https://web.dev/learn/css/",
+          link: "https://www.templatemonster.com/free-templates.php",
         },
         {
           title: "Free 50 JavaScript Courses",
