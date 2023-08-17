@@ -40,6 +40,11 @@ export const resources = {
           link: "https://www.udemy.com/course/node-js-api-tutorial/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-ixYOFO7A_.iKOziW5biAKw&utm_medium=udemyads&utm_source=aff-campaign",
         },
         {
+          title: "Next.js 13 - The Basics",
+          tags: ["Next.js 13", "JavaScript", "Frontend"],
+          link: "https://youtu.be/__mSgDEOyv8",
+        },
+        {
           title: "How to become a full stack developer",
           tags: ["JavaScript", "Web development", "Full Stack"],
           link: "https://bootcamp.cvn.columbia.edu/blog/how-to-become-a-full-stack-developer/",
