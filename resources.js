@@ -15,6 +15,11 @@ export const resources = {
           link: "https://web.dev/learn/css/",
         },
         {
+          title: "Free Website Templates - HTML, Shopify, Elementor",
+          tags: ["Website Templates", "eCommerce", "Shopify"],
+          link: "https://web.dev/learn/css/",
+        },
+        {
           title: "Free 50 JavaScript Courses",
           tags: ["Frontend", "JavaScript", "Web development"],
           link: "https://www.javascript.com/",
