@@ -431,5 +431,21 @@ export const resources = {
         // add more resources below
       ],
     },
+    {
+      id: "databases",
+      name: "Databases & SQL",
+      resources: [
+        {
+          title: "Learn SQL with MySQL",
+          tags: ["SQL", "Relational Databases", "MySQL"],
+          link: "https://www.youtube.com/playlist?list=PLANb4ZklTFYsPsSX-LEjwa9S61UWUAhGa",
+        },
+        {
+          title: "Database Concepts and Design",
+          tags: ["DBMS", "ER diagrams", "Database design"],
+          link: "https://www.youtube.com/playlist?list=PLANb4ZklTFYtgRtCQhvwLN_4xlcJnMHNO",
+        },
+      ],
+    },
   ],
 };
