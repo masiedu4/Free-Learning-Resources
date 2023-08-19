@@ -467,5 +467,22 @@ export const resources = {
         },
       ],
     },
+
+        {
+      id: "backend-engineering",
+      name: "Backend Engineering",
+      resources: [
+        {
+          title: "All-in-one resources to learn Backend Engineering",
+          tags: ["Backend", "JavaScript", "MySQL", "Node.js"],
+          link: "https://masteringbackend.com/hubs/backend-engineering/",
+        },
+        {
+          title: "The Definitive Guide To Docker in 2023",
+          tags: ["Docker", "Docker Image", "Docker Containers"],
+          link: "https://masteringbackend.com/posts/docker-tutorial",
+        },
+      ],
+    },
   ],
 };
