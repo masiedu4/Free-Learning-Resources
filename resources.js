@@ -203,6 +203,11 @@ export const resources = {
       name: "Technical Writing",
       resources: [
         {
+          title: "What is Technical Writing? The Complete Guide",
+          tags: ["technical writing", "tech writing",],
+          link: "https://blog.contentre.io/what-is-technical-writing/",
+        },
+        {
           title: "The Good Docs Project",
           tags: ["Documentation", "Project Management", "Technical Writing"],
           link: "https://thegooddocsproject.dev/",
@@ -464,6 +469,23 @@ export const resources = {
           title: "Database Concepts and Design",
           tags: ["DBMS", "ER diagrams", "Database design"],
           link: "https://www.youtube.com/playlist?list=PLANb4ZklTFYtgRtCQhvwLN_4xlcJnMHNO",
+        },
+      ],
+    },
+
+        {
+      id: "backend-engineering",
+      name: "Backend Engineering",
+      resources: [
+        {
+          title: "All-in-one resources to learn Backend Engineering",
+          tags: ["Backend", "JavaScript", "MySQL", "Node.js"],
+          link: "https://masteringbackend.com/hubs/backend-engineering/",
+        },
+        {
+          title: "The Definitive Guide To Docker in 2023",
+          tags: ["Docker", "Docker Image", "Docker Containers"],
+          link: "https://masteringbackend.com/posts/docker-tutorial",
         },
       ],
     },
