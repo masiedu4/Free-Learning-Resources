@@ -203,6 +203,11 @@ export const resources = {
       name: "Technical Writing",
       resources: [
         {
+          title: "What is Technical Writing? The Complete Guide",
+          tags: ["technical writing", "tech writing",],
+          link: "https://blog.contentre.io/what-is-technical-writing/",
+        },
+        {
           title: "The Good Docs Project",
           tags: ["Documentation", "Project Management", "Technical Writing"],
           link: "https://thegooddocsproject.dev/",
