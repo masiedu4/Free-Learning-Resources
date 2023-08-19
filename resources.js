@@ -204,7 +204,7 @@ export const resources = {
       resources: [
         {
           title: "What is Technical Writing? The Complete Guide",
-          tags: ["technical writing", "tech writing",],
+          tags: ["technical writing", "tech writing"],
           link: "https://blog.contentre.io/what-is-technical-writing/",
         },
         {
@@ -470,10 +470,15 @@ export const resources = {
           tags: ["DBMS", "ER diagrams", "Database design"],
           link: "https://www.youtube.com/playlist?list=PLANb4ZklTFYtgRtCQhvwLN_4xlcJnMHNO",
         },
+        {
+          title: "React Supabase Full Course",
+          tags: ["Supabase", "React.js", "Database"],
+          link: "https://fireship.io/courses/supabase/",
+        },
       ],
     },
 
-        {
+    {
       id: "backend-engineering",
       name: "Backend Engineering",
       resources: [
@@ -487,6 +492,18 @@ export const resources = {
           tags: ["Docker", "Docker Image", "Docker Containers"],
           link: "https://masteringbackend.com/posts/docker-tutorial",
         },
+      ],
+    },
+    {
+      id: "testing",
+      name: "QA & Testing",
+      resources: [
+        {
+          title: "Intro to Cypress - Full Course",
+          tags: ["Cypress", "Testing", "Unit test"],
+          link: "https://www.classcentral.com/course/tau-cypress-tutorial-43768",
+        },
+        // Add more resources for testing
       ],
     },
   ],
