@@ -256,6 +256,11 @@ export const resources = {
           tags: ["Technical Writing", "Online Course", "Writing Skills"],
           link: "https://alison.com/course/technical-writing-essentials",
         },
+        {
+          title: "Documenting APIs: A guide for technical writers and engineers",
+          tags: ["technical writing", "tech writing", "API Documentation"],
+          link: "https://idratherbewriting.com/learnapidoc/",
+        },
         // Add more resources here
       ],
     },
