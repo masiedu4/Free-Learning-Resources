@@ -54,7 +54,11 @@ export const resources = {
           tags: ["JavaScript", "Web development", "Full Stack"],
           link: "https://bootcamp.cvn.columbia.edu/blog/how-to-become-a-full-stack-developer/",
         },
-
+        {
+          title: "Learn React 18 with Redux Toolkit – Full Tutorial for Beginners",
+          tags: ["React 18", "Redux", "Frontend"],
+          link: "https://www.youtube.com/watch?v=2-crBg6wpp0"
+        },
         // Add more resources here
       ],
     },
