@@ -59,6 +59,11 @@ export const resources = {
           tags: ["React 18", "Redux", "Frontend"],
           link: "https://www.youtube.com/watch?v=2-crBg6wpp0"
         },
+        {
+          title: "Frontend Mentor | Front-end coding challenges using a real-life workflow",
+          tags: ["Frontend", "Coding Challenges", "Web Development"],
+          link: "https://www.frontendmentor.io/"
+        },
         // Add more resources here
       ],
     },
