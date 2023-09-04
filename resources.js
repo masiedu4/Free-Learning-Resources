@@ -200,6 +200,11 @@ export const resources = {
           tags: ["Visual Design", "Web Design", "Brand Elements"],
           link: "https://www.ogimage.gallery/",
         },
+        {
+          title: "Figma Tutorial For UI Design",
+          tags: ["Figma", "UI Design", "Material Design Guide"],
+          link: "https://www.youtube.com/watch?v=YmdtXc_bzDw"
+        },
       ],
     },
     {
