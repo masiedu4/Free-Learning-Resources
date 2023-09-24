@@ -1,3 +1,4 @@
+"use client";
 // components/Header.js
 import { useTheme } from "next-themes";
 import { FaGithub } from "react-icons/fa";

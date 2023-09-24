@@ -1,4 +1,20 @@
-export const resources = {
+interface Resource {
+  title: string;
+  tags: string[];
+  link: string;
+}
+
+interface Category {
+  id: string;
+  name: string;
+  resources: Resource[];
+}
+
+interface Resources {
+  categories: Category[];
+}
+
+export const resources: Resources = {
   categories: [
     {
       id: "webdev",
@@ -55,14 +71,16 @@ export const resources = {
           link: "https://bootcamp.cvn.columbia.edu/blog/how-to-become-a-full-stack-developer/",
         },
         {
-          title: "Learn React 18 with Redux Toolkit – Full Tutorial for Beginners",
+          title:
+            "Learn React 18 with Redux Toolkit – Full Tutorial for Beginners",
           tags: ["React 18", "Redux", "Frontend"],
-          link: "https://www.youtube.com/watch?v=2-crBg6wpp0"
+          link: "https://www.youtube.com/watch?v=2-crBg6wpp0",
         },
         {
-          title: "Frontend Mentor | Front-end coding challenges using a real-life workflow",
+          title:
+            "Frontend Mentor | Front-end coding challenges using a real-life workflow",
           tags: ["Frontend", "Coding Challenges", "Web Development"],
-          link: "https://www.frontendmentor.io/"
+          link: "https://www.frontendmentor.io/",
         },
         // Add more resources here
       ],
@@ -208,7 +226,7 @@ export const resources = {
         {
           title: "Figma Tutorial For UI Design",
           tags: ["Figma", "UI Design", "Material Design Guide"],
-          link: "https://www.youtube.com/watch?v=YmdtXc_bzDw"
+          link: "https://www.youtube.com/watch?v=YmdtXc_bzDw",
         },
       ],
     },
@@ -271,7 +289,8 @@ export const resources = {
           link: "https://alison.com/course/technical-writing-essentials",
         },
         {
-          title: "Documenting APIs: A guide for technical writers and engineers",
+          title:
+            "Documenting APIs: A guide for technical writers and engineers",
           tags: ["technical writing", "tech writing", "API Documentation"],
           link: "https://idratherbewriting.com/learnapidoc/",
         },

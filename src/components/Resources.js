@@ -1,3 +1,5 @@
+"use client";
+
 // pages/resources.js
 import { useState, useEffect } from "react";
 import { resources } from "../../resources";
@@ -73,21 +75,18 @@ function Resources() {
     <div className="flex justify-center items-center flex-col px-4">
       {/* Center vertically and horizontally */}
       <form className="w-2/3 tablet:w-1/4">
-        <label
-          for="default-search"
-          class="mb-2 text-sm font-medium text-neutral-900 sr-only dark:text-neutral-light"
-        >
+        <label className="mb-2 text-sm font-medium text-neutral-900 sr-only dark:text-neutral-light">
           Search
         </label>
-        <div class="mb-6 relative">
-          <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+        <div className="mb-6 relative">
+          <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
             <BsSearch />
           </div>
           <input
             type="search"
             id="default-search"
             value={searchQuery}
-            class="block w-full p-3 pl-10 text-sm text-neutral-900 border-none rounded-lg bg-gray-100 dark:bg-neutral-700  dark:placeholder-neutral-light dark:text-neutral-light "
+            className="block w-full p-3 pl-10 text-sm text-neutral-900 border-none rounded-lg bg-gray-100 dark:bg-neutral-700  dark:placeholder-neutral-light dark:text-neutral-light "
             placeholder="Search JavaScript, ML, AI..."
             onChange={handleSearch}
           />
@@ -126,9 +125,9 @@ function Resources() {
         {resourcesToDisplay.map((resource) => (
           <div
             key={resource}
-            class="max-w-sm p-6 bg-gray-200 border border-gray-800 rounded-lg shadow dark:shadow hover:bg-white dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-900"
+            className="max-w-sm p-6 bg-gray-200 border border-gray-800 rounded-lg shadow dark:shadow hover:bg-white dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-900"
           >
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               {resource.title}
             </h5>
 
@@ -137,7 +136,7 @@ function Resources() {
               {resource.tags.join(", ")}
             </p>
             <Link href={resource.link} target="_blank">
-              <p class="flex gap-1 hover:text-brand-500 dark:hover:text-accent-600 items-center px-3 py-2 text-sm font-medium text-center dark:text-neutral-light text-neutral-900 ">
+              <p className="flex gap-1 hover:text-brand-500 dark:hover:text-accent-600 items-center px-3 py-2 text-sm font-medium text-center dark:text-neutral-light text-neutral-900 ">
                 Learn more
                 <BsArrowRight />
               </p>

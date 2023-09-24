@@ -31,7 +31,7 @@ To start using the website and benefiting from the vast collection of learning r
 
 #### Creating a Category
 
-- Open `resources.js` in the root directory
+- Open `resources.ts` in the root directory
 - To create a new category "[Category Name]" and add resources under it, use the following code snippet as a template:
 
 ```

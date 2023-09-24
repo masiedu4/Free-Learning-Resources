@@ -1,23 +1,21 @@
+"use client";
+
+import React from "react";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Resources from "@/components/Resources";
-import Head from "next/head";
+import { ThemeProvider } from "next-themes";
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Head>
-
+    <ThemeProvider attribute="class">
       <main className="bg-neutral-100  dark:bg-brand-900 h-full w-full">
-        {" "}
         <Header />
         <Hero />
         <Resources />
         <Footer />
       </main>
-    </>
+    </ThemeProvider>
   );
 }
