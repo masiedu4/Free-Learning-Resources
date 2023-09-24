@@ -52,7 +52,7 @@ To start using the website and benefiting from the vast collection of learning r
 
 #### Adding a Resource
 
-- Open `resources.js` in the root directory
+- Open `resources.ts` in the root directory
 - To add a new resources, use the following code snippet as a template and add it to the `resources` array:
 
 ```
