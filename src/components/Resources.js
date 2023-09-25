@@ -18,6 +18,8 @@ function Resources() {
     );
     setSearchQuery("");
     setDisplayCount(8);
+
+    // router push to a dynamic page will be here
   };
 
   const handleSearch = (event) => {
@@ -28,6 +30,8 @@ function Resources() {
         : prevCategory;
     });
     setDisplayCount(8);
+
+    // router push to a dynamic page will be here
   };
 
   const handleLoadMore = () => {
