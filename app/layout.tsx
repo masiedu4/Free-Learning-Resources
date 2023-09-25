@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 import Script from "next/script";
+import Providers from "./providers";
 
 export const metadata: Metadata = {
   title: "Free Resources for Learning Tech",
@@ -54,7 +55,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="">{children}</body>
+      <body className="">
+        <Providers> {children} </Providers>
+      </body>
       <Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
       <noscript>
         {/* eslint-disable @next/next/no-img-element */}
