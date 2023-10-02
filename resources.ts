@@ -544,5 +544,23 @@ export const resources: Resources = {
         // Add more resources for testing
       ],
     },
+
+    {
+      id: "algorithm",
+      name: "Algorithms & Coding Challenges",
+      resources: [
+        {
+          title: "Codewars",
+          tags: ["Algorithm", "Coding challenges", "Interview prep"],
+          link: "https://www.codewars.com/"
+        },
+        {
+          title: "HackerRank",
+          tags: ["Algorithm", "Coding challenges", "Interview prep"],
+          link: "https://www.hackerrank.com/"
+        },
+        // Add more resources for algorithm
+      ],
+    }
   ],
 };
