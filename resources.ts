@@ -82,6 +82,11 @@ export const resources: Resources = {
           tags: ["Frontend", "Coding Challenges", "Web Development"],
           link: "https://www.frontendmentor.io/",
         },
+        {
+          title: "Hands on React",
+          tags: ["React", "Web development", "Frontend"],
+          link: "https://handsonreact.com/",
+        },
         // Add more resources here
       ],
     },
