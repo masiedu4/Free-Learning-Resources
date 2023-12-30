@@ -77,6 +77,11 @@ export const resources: Resources = {
           link: "https://www.youtube.com/watch?v=2-crBg6wpp0",
         },
         {
+          title: "How to build chrome extension in React",
+          tags: ["React 18","chrome extension","Frontend"],
+          link: "https://youtu.be/GGi7Brsf7js?si=lZtnagMpuNFiEsCB",
+        },
+        {
           title:
             "Frontend Mentor | Front-end coding challenges using a real-life workflow",
           tags: ["Frontend", "Coding Challenges", "Web Development"],
