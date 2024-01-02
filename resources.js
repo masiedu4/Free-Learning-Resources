@@ -45,7 +45,11 @@ export const resources = {
           link: "https://bootcamp.cvn.columbia.edu/blog/how-to-become-a-full-stack-developer/",
         },
 
-        // Add more resources here
+        {
+          title: "Build Your Own AI Chatbot (Next.js 14, ChatGPT, Vector Embeddings)",
+          tags: ["TypeScript", "Web development", "Next.js"],
+          link: "https://www.youtube.com/watch?v=mkJbEP5GeRA&t=818s",
+        },
       ],
     },
 
